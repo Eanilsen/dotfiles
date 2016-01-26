@@ -1,0 +1,28 @@
+* 14.01.2016
+  Data structures: Handling data in programs
+  Algorithms: How to carry out useful operations on the data structures
+  Analyzing algorithms: Find the properties of algorithms
+
+
+  How do we measure the efficiency of an algorithm?
+
+  The code examples in the book might be over engineered
+  - Measure time
+  - Count loops
+
+  log10(10) = 1
+  log10(100) = 2
+
+  O(log n) very fast
+** Tuition and exercises
+   - 2 hours of lectures per week
+   - Mandatory exercises
+   - 4 hour written exam
+  
+** Big-O
+   T(n)~O(n^2)
+
+* 18.01.2016
+  Selection sort: Finds the biggest value in the list and puts it last
+  Quick sort, merge sort
+  Nothing new this lecture

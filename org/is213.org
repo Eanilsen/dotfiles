@@ -1,0 +1,24 @@
+* 19.01.2016
+  Ducheneaut's approach
+  - etnography and vilualization & exploration of emails and code databases
+  - individual learning process and political process
+  - computer supported cooperative work and computer-mediated interactions
+    E-learning and so on
+  
+  How can one socialize within a computer-mediated working environment?
+
+  Egalitarian vs. Elitarian
+  Egalitarian: equal rights and opportunities
+  Elitarian: hierarchical structure
+  
+  TOC of FOSS
+  - Training
+  - Equipment
+  - Support
+  - Maintanance
+  - License
+    - EULA
+
+* 25.01.2016
+  Gruppe "Pythonslangen"
+  "Dongiung"

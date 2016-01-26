@@ -1,0 +1,7 @@
+* Tasks
+** DONE Prepare for exam.
+   CLOSED: [2015-12-13 sø. 14:23]
+** DONE Ask if my part should cover use cases
+   CLOSED: [2015-12-09 on. 13:24]
+   - Yes, please
+

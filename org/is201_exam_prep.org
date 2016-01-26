@@ -1,0 +1,12 @@
+* Forklar sammenhengen mellom COMMIT og ROLLBACK
+  COMMIT lar deg lagre endringer mot databasen.
+  ROLLBACK forkaster alle endringer siden siste COMMIT
+  (eller tar deg tilbake til et bestemt SAVEPOINT).
+* M..N til 1..N
+  Forfatter M..N Bok
+  En forfatter kan skrive mange bøker og en bok kan ha flere forfattere.
+  Vi danner en tabell som holder styr på hvilken forfatter som er knyttet til hver og en bok.
+  Forfatter 1..N Forfatter_bok N..1 Bok
+* Hva er en index og hvorfor brukes de? Må primærnøkler indekseres?
+  En index er en peker til data i en tabell. Databasens søkemotor kan enkelt og raskt finne en index.
+  Primærnøkler er alltid indekserte i MySQL.

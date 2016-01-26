@@ -1,0 +1,88 @@
+* Abstract
+* Foreword
+* Introduction
+* Analysis
+** Interviews
+** Creation of User Stories
+** User Stories
+   More in is200_exam_prep.org
+** Use Cases
+   1. See students progress
+   2. Create a user in the system
+   3. Registering a module
+   4. Upload a file and pass a module
+** Rich Picture
+   Paint the actors in a system and their interactions.
+   Combined all functions and actors
+   Tool to improve communication between developer and customer.
+** Statechart Diagram
+   Overview of the dynamic states of a given object inside the system.
+** Event Table
+   Visual representation of how all possible events inside the system interact with defferent classes.
+** Class Diagram
+   Real-world classes that describe how the components and objects of the system will be related.
+** Event-response Table
+   Identify the system's requirements by considering the external events the system must detect.
+** System Specifications
+   What is LES?
+** Function List
+* Design
+  Based on previous, in-depth analysis
+** Sequence Diagram
+   Shows in what order the different processes work together and rely on each other,
+   as well as how the processes work together as one.
+** Database Design
+** EER
+** Paper Prototype
+   Gave us a basic idea
+** Digital Prototype
+   Improved on the basic idea we got from the paper prototype
+* Implementation
+  Technical and practical
+** Architecture
+   Front-end -> back-end -> database
+** Back End
+** Database
+** Business Logic
+   Functions
+** Front End
+* Scrum Process
+  Why did we use scrum?
+** Tools and utilities
+** Backlog System
+** Tools
+* Sprint Overview
+** Sprint 0
+   Assigned roles
+   No backlog
+   No burndown
+   Daily scrum changed to weekly scrum
+   No time boxing
+** Sprint 1
+   Implemented backlog
+   Created models
+** Sprint 2
+   Meetings with lecturers
+   Time spent on Netbeans and Glassfish
+** Sprint 3
+   Coding
+** Reflection Table
+   Went to all sprint logs and discussed different topics in the group
+* Conclusion
+** Results
+   Prepared us for future projects both academically and professionally.
+** Product
+   Will never be used
+   Good first experience
+** Process
+   Meeting based
+   Weekly sprint and additional meetings
+   Social and interactive
+   Ideas and feedback
+   Different locations
+   Files and documents kept online
+   Independent work = individual initiative
+** Review
+   Mostly on schedule
+* Group reflection
+  Much like Janus, the roman god, we look both ways and the view is quite pleasing.
