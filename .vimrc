@@ -71,7 +71,7 @@ set hlsearch
 set incsearch
 
 " Add the unnamed register to the clipboard
-set clipboard+=unnamed
+set clipboard+=unnamedplus
 
 " Show line numbers
 set number
@@ -87,7 +87,8 @@ highlight ColorColumn ctermbg=233
 
 " Colorscheme and syntax highlighting
 syntax enable
-colors zenburn
+set background=dark
+colorscheme solarized
 
 " Turn off the arrow keys
 inoremap <up> <nop>
