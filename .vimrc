@@ -1,4 +1,5 @@
 set foldmethod=marker
+set foldlevel=99
 
 " Pathogen setup
 call pathogen#infect()
@@ -24,7 +25,7 @@ set smartcase
 " Set the forward slash to be the slash of note
 set shellslash
 if has("unix")
-	set shell=bash
+	set shell=zsh
 else
 	set shell=ksh.exe
 endif
@@ -77,7 +78,7 @@ set clipboard+=unnamedplus
 set number
 
 " Ignore when autocompleting
-set wildignore+=*.o,*.class,*.git,*.svn
+set wildignore+=*.o,*.class,*.git,*.svn,*/tmp/*,*.so,*.swp,*.zip
 
 " Set colorcolumn
 set nowrap
@@ -93,12 +94,16 @@ colorscheme solarized
 " Turn off the arrow keys
 inoremap <up> <nop>
 vnoremap <up> <nop>
+noremap <up> <nop>
 inoremap <down> <nop>
 vnoremap <down> <nop>
+noremap <down> <nop>
 inoremap <left> <nop>
+vnoremap <left> <nop>
+noremap <left> <nop>
+inoremap <right> <nop>
 vnoremap <right> <nop>
-inoremap <left> <nop>
-vnoremap <right> <nop>
+noremap <right> <nop>
 
 " Keep 5 lines visible above/below the cursor
 set scrolloff=5
@@ -106,7 +111,7 @@ set scrolloff=5
 " }}}
 " Keyboard shortcuts {{{
 " Change the leader key
-let mapleader = ","
+let mapleader = "\<SPACE>"
 
 " Toggle paste mode
 nmap <Leader>p :set invpaste<CR>:set paste?<CR>
@@ -120,13 +125,9 @@ nmap <Leader>sz :so $MYVIMRC<CR>
 
 " Quicksave command
 noremap <Leader>s :update<CR>
-vnoremap <Leader>s :update<CR>
-inoremap <Leader>s :update<CR>
 
 " Close current window
 noremap <Leader>q :q<CR>
-vnoremap <Leader>q :q<CR>
-inoremap <Leader>q :q<CR>
 
 " Quit and save
 nnoremap <Leader>x :xa<CR>
@@ -162,5 +163,22 @@ let g:jekyll_path = "~/Documents/blog/eanilsen.github.io"
 map <Leader>jb :JekyllBuild<CR>
 map <Leader>jn :JekyllPost<CR>
 map <Leader>jl :JekyllList<CR>
+" }}}
+" Syntastic {{{
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+" }}}
+" UltiSnips {{{
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+let g:UltiSnipsEditSplit="vertical"
 " }}}
 " }}}
