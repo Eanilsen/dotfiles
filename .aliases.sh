@@ -12,13 +12,29 @@ alias glo="git log --oneline"
 alias grhh="git reset --hard HEAD"
 alias gcp="git cherry-pick $1"
 
+# Tmux
+alias tma='tmux attach -t' # Tmux attach session
+
+# Emacs
 alias ed='emacs --daemon && nohup emacsclient -c > /dev/null 2>&1&' # Start the emacs daemon and the client
+
+# Games
 alias df='sh ~/Games/df_linux/dfhack' # Start df and df hack
+
+# Clipboard
 alias c='xclip -selection clipboard' # Copy to clipboard using 'cat file | c'
 alias v='xclip -o' # Paste from clipboard
+
+# Social
 alias sirc='screen irssi' # Start irssi in GNU screen
+
+# Aptitude
 alias apt='sudo apt-get'
 alias upd='sudo apt-get update && sudo apt-get upgrade'
+
+# Hugo
 alias hserv='hugo server' # Start the hugo server
 alias hnew='hugo new' # Shortcut
-alias tma='tmux attach -t' # Tmux attach session
+
+# SSH
+alias ucp="ssh 18946147@saeshell01p.curtin.edu.au"

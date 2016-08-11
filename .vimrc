@@ -71,9 +71,6 @@ set diffopt+=iwhite
 set hlsearch
 set incsearch
 
-" Add the unnamed register to the clipboard
-set clipboard+=unnamedplus
-
 " Show line numbers
 set number
 
@@ -176,9 +173,24 @@ let g:syntastic_check_on_wq = 0
 " }}}
 " UltiSnips {{{
 let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 let g:UltiSnipsEditSplit="vertical"
+
+let g:UltiSnipsSnippetDir="~/.vim/UltiSnips"
+" }}}
+" IndentLine {{{
+let g:indentLine_color_term = 239
+let g:indentLine_color_gui = '#09AA08'
+let g:indentLine_char = '|'
+" }}}
+" delimitMate {{{
+let delimitMate_expand_cr = 1
+" }}}
+" CtrlP {{{
+let g:ctrlp_map = '<leader>t'
+set wildignore+=*/build/**
+let g:ctrlp_use_caching = 0 " disable caching
 " }}}
 " }}}
