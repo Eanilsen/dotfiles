@@ -13,7 +13,8 @@ alias grhh="git reset --hard HEAD"
 alias gcp="git cherry-pick $1"
 
 # Tmux
-alias tma='tmux attach -t' # Tmux attach session
+alias tma="tmux attach -t $1" # Tmux attach session
+alias tn="tmux new-session -s $1" # Tmux new session
 
 # Emacs
 alias ed='emacs --daemon && nohup emacsclient -c > /dev/null 2>&1&' # Start the emacs daemon and the client
@@ -38,3 +39,7 @@ alias hnew='hugo new' # Shortcut
 
 # SSH
 alias ucp="ssh 18946147@saeshell01p.curtin.edu.au"
+alias sftpucp="sftp 18946147@saeshell01p.curtin.edu.au"
+
+# Pandoc
+alias mpdf="pandoc -r markdown -o $1 $2"
