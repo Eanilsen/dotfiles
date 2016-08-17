@@ -15,6 +15,7 @@ alias gcp="git cherry-pick $1"
 # Tmux
 alias tma="tmux attach -t $1" # Tmux attach session
 alias tn="tmux new-session -s $1" # Tmux new session
+alias tmk="tmux kill-session -t $1"
 
 # Emacs
 alias ed='emacs --daemon && nohup emacsclient -c > /dev/null 2>&1&' # Start the emacs daemon and the client
@@ -41,5 +42,5 @@ alias hnew='hugo new' # Shortcut
 alias ucp="ssh 18946147@saeshell01p.curtin.edu.au"
 alias sftpucp="sftp 18946147@saeshell01p.curtin.edu.au"
 
-# Pandoc
-alias mpdf="pandoc -r markdown -o $1 $2"
+# Notes
+# TODO: create a script that writes files to the notes dir

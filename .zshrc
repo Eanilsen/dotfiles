@@ -53,11 +53,11 @@ plugins=(git)
 
 # User configuration
 
-  export PATH="/home/reel/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
-# export MANPATH="/usr/local/man:$MANPATH"
+export PATH="/home/reel/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
+export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-source ~/.aliases.sh
+source ~/.aliases
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
