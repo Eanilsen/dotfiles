@@ -1,10 +1,29 @@
 set foldmethod=marker
 set foldlevel=99
 
-" Pathogen setup
-call pathogen#infect()
-call pathogen#helptags()
+" Vundle {{{
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'kien/ctrlp.vim'
+Plugin 'raimondi/delimitmate'
+Plugin 'yggdroot/indentline'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'sirver/ultisnips'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'honza/vim-snippets'
+Plugin 'tpope/vim-surround'
+
+call vundle#end()
+filetype plugin indent on
+" }}}
 " Editor {{{
 " Tabstops are 4 spaces
 set tabstop=4
@@ -12,11 +31,6 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set autoindent
-
-" Set filetype on
-filetype on
-filetype plugin on
-filetype indent on
 
 " Ignore case if not specified
 set ignorecase
@@ -172,13 +186,13 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 " }}}
 " UltiSnips {{{
+set runtimepath+=~/.vim/my-snippets/
+let g:UltiSnipsSnippetsDir='~/.vim/my-snippets/UltiSnips/'
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-
 let g:UltiSnipsEditSplit="vertical"
 
-let g:UltiSnipsSnippetDir="~/.vim/UltiSnips"
 " }}}
 " IndentLine {{{
 let g:indentLine_color_term = 239

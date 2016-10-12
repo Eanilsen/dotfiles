@@ -4,7 +4,7 @@ alias gs="git status"
 alias gd="git diff"
 alias gdh="git diff HEAD"
 alias gc="git clone $1 $2"
-alias gcm="git commit -m "$1""
+alias gcm="git commit -m $1"
 alias gaa="git add -A"
 alias gpo="git push origin $1"
 alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
@@ -18,25 +18,26 @@ alias tn="tmux new-session -s $1" # Tmux new session
 alias tmk="tmux kill-session -t $1"
 
 # Emacs
-alias ed='emacs --daemon && nohup emacsclient -c > /dev/null 2>&1&' # Start the emacs daemon and the client
+alias ed="emacs --daemon && nohup emacsclient -c > /dev/null 2>&1&" # Start the emacs daemon and the client
 
 # Games
-alias df='sh ~/Games/df_linux/dfhack' # Start df and df hack
+alias df="sh ~/Games/df_linux/dfhack" # Start df and df hack
+alias dh="sh ~/Games/dynahack/dynahack.sh" # Start dynahack
 
 # Clipboard
-alias c='xclip -selection clipboard' # Copy to clipboard using 'cat file | c'
-alias v='xclip -o' # Paste from clipboard
+alias c="xclip -selection clipboard" # Copy to clipboard using 'cat file | c'
+alias v="xclip -o" # Paste from clipboard
 
 # Social
-alias sirc='screen irssi' # Start irssi in GNU screen
+alias sirc="screen irssi" # Start irssi in GNU screen
 
 # Aptitude
-alias apt='sudo apt-get'
-alias upd='sudo apt-get update && sudo apt-get upgrade'
+alias apt="sudo apt-get"
+alias upd="sudo apt-get update && sudo apt-get upgrade"
 
 # Hugo
-alias hserv='hugo server' # Start the hugo server
-alias hnew='hugo new' # Shortcut
+alias hs="hugo server" # Start the hugo server
+alias hn="hugo new $1" # Shortcut
 
 # SSH
 alias ucp="ssh 18946147@saeshell01p.curtin.edu.au"
@@ -44,3 +45,7 @@ alias sftpucp="sftp 18946147@saeshell01p.curtin.edu.au"
 
 # Notes
 # TODO: create a script that writes files to the notes dir
+alias mpdf="pandoc --from markdown --latex-engine=xelatex -o"
+
+# Compiler
+alias gcall="gcc -Wall -ansi -pedantic"

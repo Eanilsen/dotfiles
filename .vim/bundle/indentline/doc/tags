@@ -22,6 +22,7 @@ g:indentLine_indentLevel	indentLine.txt	/*g:indentLine_indentLevel*
 g:indentLine_leadingSpaceChar	indentLine.txt	/*g:indentLine_leadingSpaceChar*
 g:indentLine_leadingSpaceEnabled	indentLine.txt	/*g:indentLine_leadingSpaceEnabled*
 g:indentLine_maxLines	indentLine.txt	/*g:indentLine_maxLines*
+g:indentLine_setColors	indentLine.txt	/*g:indentLine_setColors*
 g:indentLine_showFirstIndentLevel	indentLine.txt	/*g:indentLine_showFirstIndentLevel*
 g:loaded_indentLine	indentLine.txt	/*g:loaded_indentLine*
 indentLine-changelog	indentLine.txt	/*indentLine-changelog*
