@@ -48,4 +48,4 @@ alias sftpucp="sftp 18946147@saeshell01p.curtin.edu.au"
 alias mpdf="pandoc --from markdown --latex-engine=xelatex -o"
 
 # Compiler
-alias gcall="gcc -Wall -ansi -pedantic"
+alias gcall="gcc -Wall -ansi -pedantic -g"
