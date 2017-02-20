@@ -45,7 +45,7 @@ alias sftpucp="sftp 18946147@saeshell01p.curtin.edu.au"
 
 # Notes
 # TODO: create a script that writes files to the notes dir
-alias mpdf="pandoc --from markdown --latex-engine=xelatex -o"
+alias mpdf="pandoc -s -V geometry:margin=1.5in -o"
 
 # Compiler
 alias gcall="gcc -Wall -ansi -pedantic -g"

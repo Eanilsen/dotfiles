@@ -32,6 +32,9 @@ set softtabstop=4
 set expandtab
 set autoindent
 
+" Access the system clipboard
+set clipboard=unnamed
+
 " Ignore case if not specified
 set ignorecase
 set smartcase
@@ -99,8 +102,8 @@ highlight ColorColumn ctermbg=233
 
 " Colorscheme and syntax highlighting
 syntax enable
-set background=dark
-colorscheme solarized
+"set background=light
+"colorscheme solarized
 
 " Turn off the arrow keys
 inoremap <up> <nop>

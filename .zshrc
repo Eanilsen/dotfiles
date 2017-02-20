@@ -53,8 +53,9 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/home/reel/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local"
+export PATH="/home/reel/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local:/usr/local/scripts"
 export MANPATH="/usr/local/man:$MANPATH"
+export PANEL_FIFO="/tmp/panel-fifo"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.aliases
@@ -62,6 +63,9 @@ source ~/.aliases
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
+
+# Import colorscheme from wal
+wal -r
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
