@@ -1,37 +1,37 @@
 * Interviews
-  - It was important to determine which functions was needed/wanted by the different users/actors of the system.
-  - One person from each field.
-  - Good feedback
-  - Prioritized Even L. because of his role as product owner and lecturer in the subject.
+- It was important to determine which functions was needed/wanted by the different users/actors of the system.
+- One person from each field.
+- Good feedback
+- Prioritized Even L. because of his role as product owner and lecturer in the subject.
 * User Stories
-  - Created through an iterative process.
-  - Based on several different aspects.
-    - Project specifications
-    - interviews
-    - Discussion with other students/teachers
-    - Group discussion as students
-    - Group discussion as developers
-  - Several iterations. Firs set of user stories was created during the pre-sprint and sprint 0.
+- Created through an iterative process.
+- Based on several different aspects.
+- Project specifications
+- interviews
+- Discussion with other students/teachers
+- Group discussion as students
+- Group discussion as developers
+- Several iterations. Firs set of user stories was created during the pre-sprint and sprint 0.
 ** Two different formats
-  1. As a <role> I want <functionality> so that <some benefit>.
-  2. In order to get <some benefit> as a <role> I want <functionality>.
+1. As a <role> I want <functionality> so that <some benefit>.
+2. In order to get <some benefit> as a <role> I want <functionality>.
 ** Criterias
-  - Relevant functionality
-  - Relevant sources. (Potential users)
-  - Development capability and timeframe. Aim realistically.
-  - Should be unique.
+- Relevant functionality
+- Relevant sources. (Potential users)
+- Development capability and timeframe. Aim realistically.
+- Should be unique.
 ** MoSCoW
-  - Voted with all members present
-  - Turned out to be more time consuming than productive
-  - Group agreed.
-  - Time contstraints and the structure of the lectures (maybe experience?)
-  - Did not use MoSCoW for the last iteration of user stories.
+- Voted with all members present
+- Turned out to be more time consuming than productive
+- Group agreed.
+- Time contstraints and the structure of the lectures (maybe experience?)
+- Did not use MoSCoW for the last iteration of user stories.
 * Use Cases
-  - More abstract description based on the user stories
-  - Illustrates real world scenarios
-  - Building the bridge between the formal description of the US and the more
-    abstract presentation in other diagrams
-  - Analyse structure and requirements
-  - Fulfill the users, buyers and the developers needs
+- More abstract description based on the user stories
+- Illustrates real world scenarios
+- Building the bridge between the formal description of the US and the more
+abstract presentation in other diagrams
+- Analyse structure and requirements
+- Fulfill the users, buyers and the developers needs
 ** Iterative process
-  - Adapted according to the user stories
+- Adapted according to the user stories
